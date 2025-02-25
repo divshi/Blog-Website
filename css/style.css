@@ -2,10 +2,10 @@
 
 :root {
     --bg-size: 100% 100%;
-    --main-color: #fff;
+    --main-color: #BFBCB6 ;
     --title: 'Josefin Sans', sans-serif;
     --font-para: 'David Libre', serif;
-    --btn-color: #bbe1fa;
+    --btn-color: #BB936F ;
     --btn-font-color: #000;
     --btn-font: 1.5rem;
     --eff: .3s all ease;
@@ -39,12 +39,12 @@ a:hover {
 }
 
 body {
-    background: hsl(84, 3%, 94%);
+    background: hsl(60, 20%, 95%);
 }
 
 .main_header__div {
     height: calc(100vh - 40vh);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0)), url('https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0)), url(/images/bg2.jpeg);
     background-size: var(--bg-size);
 }
 
@@ -305,12 +305,12 @@ figure img:hover,
 
 /*popular post*/
 .right_div_post {
-    background: #fff;
+    background: #BFBCB6 ;
     box-shadow: 0 1rem 3rem -1rem rgba(0, 0, 0, 0.4);
 }
 
 .right_sub__div {
-    background: #fff;
+    background: #BFBCB6 ;
 }
 
 .right_sub__div .row {
